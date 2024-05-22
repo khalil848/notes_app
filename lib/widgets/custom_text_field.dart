@@ -9,7 +9,7 @@ class CustomTextField extends StatelessWidget {
   Widget build(BuildContext context) {
     return TextField(
       maxLines: maxLines,
-      cursorColor: KPrimaryColor,
+      cursorColor: kPrimaryColor,
       decoration: InputDecoration(
         hintText: hintText,
         hintStyle: TextStyle(
@@ -17,7 +17,7 @@ class CustomTextField extends StatelessWidget {
             ),
         border: bulidBorder(),
         enabledBorder: bulidBorder(),
-        focusedBorder: bulidBorder(KPrimaryColor),
+        focusedBorder: bulidBorder(kPrimaryColor),
       ),
     );
   }
